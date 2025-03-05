@@ -1,0 +1,265 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image:
+  	linear-gradient(to bottom, rgba(0, 0, 255, 0.3), rgba(255, 255, 255, 0.8)),
+  	url('https://149520725.v2.pressablecdn.com/wp-content/uploads/2017/08/GoodBAd.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right
+}
+
+header {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #303030;
+  padding: 3px 0px 3px 0px;
+  background: linear-gradient(to bottom, #404040, #DBDBDB);
+}
+
+blockquote {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 160%;
+  background-color: #f5f5f5;
+  border-left: 3px solid firebrick;
+  padding-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333333;
+}
+
+blockquote.villagers {
+  border-left: 5px solid #005dbb;
+}
+
+blockquote.farmer {
+  border-left: 5px solid #ff8f00;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+img {
+  width: 890px;
+  height: 600px;
+}
+
+caption {
+  width: 90%;
+  margin: 0 auto;
+  border: solid black 1px;
+  background-color: #DBDBDB;
+  margin-bottom: 5px;
+}
+
+table {
+  width: 30%;
+  margin: 0 auto;
+  position: sticky;
+  top: 20px;
+  text-align: center;
+  border: solid black 1px;
+  background-color: #454545;
+}
+
+td, th {
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.2;
+  border: solid black 1px;
+}
+
+tr:nth-child(odd) {
+  background-color: #DBDBDB;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #404040;
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+	text-align: left !important;
+}
+
+#is-good {
+  background-image: url('../img/bien.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+}
+
+#is-evil {
+  background-image: url('../img/mal.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+}
+
+#is-cat {
+  background-image: url('../img/chat.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+}
+
+#is-nothing {
+  background-image: url('../img/nothing.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+}
+
+.block1 {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #404040, #DBDBDB);
+}
+
+.block2 {
+  width: 45%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #404040, #DBDBDB);
+  padding: 15px;
+  float: right;
+}
+
+.img {
+  border-radius: 15px;
+  width: 45%;
+  height: auto;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.title {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: linear-gradient(to bottom, #404040, #DBDBDB);
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #303030;
+  padding: 15px 5px;
+}
+
+.paragraphe {
+  width: 35%;
+  margin-left: 150px;
+  margin-right: auto;
+  background-color: #DBDBDB;
+  margin-bottom: 5px;
+  border-left: 3px solid #505050;
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.6;
+}
+
+.final-parag {
+  width: 55%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #909090;
+  border-left: 1.5px solid #303030;
+  border-right: 1.5px solid #303030;
+  border-radius: 10px;
+  font-style: italic;
+  font-family: 'Times New Roman', serif;
+  line-height: 1.6;
+}
+
+.bad {
+	color: red;
+	text-transform: capitalize;
+}
+
+.good {
+	color: green;
+	text-transform: capitalize;
+}
+
+.first-parag {
+	font-weight: bold;
+
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.flex img {
+  width: 120%;
+  height: auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin: 0 auto;
+  border: solid black 1px;
+  background-color: #DBDBDB;
+}
+
+.text {
+  width: 80%;
+  text-align: justify;
+}
