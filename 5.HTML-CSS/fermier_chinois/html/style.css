@@ -85,11 +85,11 @@ td, th {
 }
 
 tr:nth-child(odd) {
-  background-color: #DBDBDB; /* Gris clair sur les lignes impaires */
+  background-color: #DBDBDB;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2; /* Gris encore plus clair sur les lignes paires */
+  background-color: #f2f2f2;
 }
 
 footer {
@@ -126,7 +126,7 @@ li {
 }
 
 #is-good {
-  background-image: url('../img/bien.png'); /* Image pour "good" */
+  background-image: url('../img/bien.png');
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 20px 20px;
@@ -134,7 +134,7 @@ li {
 }
 
 #is-evil {
-  background-image: url('../img/mal.png'); /* Image pour "evil" */
+  background-image: url('../img/mal.png');
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 20px 20px;
@@ -142,7 +142,7 @@ li {
 }
 
 #is-cat {
-  background-image: url('../img/chat.png'); /* Image pour "cats" */
+  background-image: url('../img/chat.png');
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 20px 20px;
@@ -150,7 +150,7 @@ li {
 }
 
 #is-nothing {
-  background-image: url('../img/nothing.png'); /* Image pour "cats" */
+  background-image: url('../img/nothing.png');
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 20px 20px;
@@ -168,22 +168,21 @@ li {
 }
 
 .block2 {
-  width: 90%;
-  height: 480px;
+  width: 45%;
+  height: 100%;
   margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
   border-radius: 15px;
   background: linear-gradient(to bottom, #404040, #DBDBDB);
-  padding: 120px 25px 0px 0px;
+  padding: 15px;
+  float: right;
 }
 
 .img {
-  border-radius: 15px 0px 0px 15px;
-  width: 890px;
-  height: 600px;
+  border-radius: 15px;
+  width: 45%;
+  height: auto;
   float: left;
-  margin-right: 25px;
+  margin-bottom: 30px;
 }
 
 .title {
@@ -264,5 +263,3 @@ figcaption {
   width: 80%;
   text-align: justify;
 }
-
-
