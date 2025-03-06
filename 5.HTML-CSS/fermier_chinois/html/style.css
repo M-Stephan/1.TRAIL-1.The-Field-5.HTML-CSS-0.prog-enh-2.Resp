@@ -7,7 +7,11 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom right
+  background-position: bottom right;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 header {
@@ -239,11 +243,10 @@ li {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-right: 20px;
 }
 
 .flex img {
-  width: 120%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -253,6 +256,7 @@ figcaption {
   text-align: center;
   font-style: italic;
   margin-top: 10px;
+  margin-bottom: 10px;
   margin: 0 auto;
   border: solid black 1px;
   background-color: #DBDBDB;
@@ -261,4 +265,10 @@ figcaption {
 .text {
   width: 80%;
   text-align: justify;
+}
+
+.rock {
+  width: 60%;
+  height: auto;
+  margin-top: 15px;
 }
